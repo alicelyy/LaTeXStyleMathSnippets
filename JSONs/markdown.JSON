@@ -1,0 +1,709 @@
+-----------------------------------------------------------------------
+-          JSON declarations of commonly used math snippets .         -
+-                          VSCode compatible.                         -  
+-----------------------------------------------------------------------
+
+{
+	"\\G": {
+	  "prefix": "\\G",
+	  "body": "\\Gamma",
+	  "description": "Gamma"
+	},
+	"\\D": {
+	  "prefix": "\\D",
+	  "body": "\\Delta",
+	  "description": "Delta"
+	},
+	"\\L": {
+	  "prefix": "\\L",
+	  "body": "\\Lambda",
+	  "description": "Lambda"
+	},
+	"\\L1": {
+		"prefix": "\\L1",
+		"body": "\\Lambda_1",
+		"description": "Lambda1"
+	},
+	"\\L2": {
+		"prefix": "\\L2",
+		"body": "\\Lambda_1",
+		"description": "Lambda2"
+	},
+	"\\F": {
+	  "prefix": "\\F",
+	  "body": "\\Phi",
+	  "description": "Phi"
+	},
+	"\\P": {
+	  "prefix": "\\P",
+	  "body": "\\Pi",
+	  "description": "Pi"
+	},
+	"\\C": {
+	  "prefix": "\\C",
+	  "body": "\\Psi",
+	  "description": "Psi"
+	},
+	"\\S": {
+	  "prefix": "\\S",
+	  "body": "\\Sigma",
+	  "description": "Sigma"
+	},
+	"\\U": {
+	  "prefix": "\\U",
+	  "body": "\\Theta",
+	  "description": "Theta"
+	},
+	"\\Y": {
+	  "prefix": "\\Y",
+	  "body": "\\Upsilon",
+	  "description": "Upsilon"
+	},
+	"\\J": {
+	  "prefix": "\\J",
+	  "body": "\\Xi",
+	  "description": "Xi"
+	},
+	"\\V": {
+	  "prefix": "\\V",
+	  "body": "\\Omega",
+	  "description": "Omega"
+	},
+	"\\a": {
+	  "prefix": "\\a",
+	  "body": "\\alpha",
+	  "description": "alpha"
+	},
+	"\\b": {
+	  "prefix": "\\b",
+	  "body": "\\beta",
+	  "description": "beta"
+	},
+	"\\g": {
+	  "prefix": "\\g",
+	  "body": "\\gamma",
+	  "description": "gamma"
+	},
+	"\\d": {
+	  "prefix": "\\d",
+	  "body": "\\delta",
+	  "description": "delta"
+	},
+	"\\e": {
+	  "prefix": "\\e",
+	  "body": "\\epsilon",
+	  "description": "epsilon"
+	},
+	"\\z": {
+	  "prefix": "\\z",
+	  "body": "\\zeta",
+	  "description": "zeta"
+	},
+	"\\h": {
+	  "prefix": "\\h",
+	  "body": "\\eta",
+	  "description": "eta"
+	},
+	"\\u": {
+	  "prefix": "\\u",
+	  "body": "\\theta",
+	  "description": "theta"
+	},
+	"\\i": {
+	  "prefix": "\\i",
+	  "body": "\\iota",
+	  "description": "iota"
+	},
+	"\\k": {
+	  "prefix": "\\k",
+	  "body": "\\kappa",
+	  "description": "kappa"
+	},
+	"\\l": {
+	  "prefix": "\\l",
+	  "body": "\\lambda",
+	  "description": "lambda"
+	},
+	"\\m": {
+	  "prefix": "\\m",
+	  "body": "\\mu",
+	  "description": "mu"
+	},
+	"\\n": {
+	  "prefix": "\\n",
+	  "body": "\\nu",
+	  "description": "nu"
+	},
+	"\\j": {
+	  "prefix": "\\j",
+	  "body": "\\xi",
+	  "description": "xi"
+	},
+	"\\p": {
+	  "prefix": "\\p",
+	  "body": "\\pi",
+	  "description": "pi"
+	},
+	"\\r": {
+	  "prefix": "\\r",
+	  "body": "\\rho",
+	  "description": "rho"
+	},
+	"\\s": {
+	  "prefix": "\\s",
+	  "body": "\\sigma",
+	  "description": "sigma"
+	},
+	"\\t": {
+	  "prefix": "\\t",
+	  "body": "\\tau",
+	  "description": "tau"
+	},
+	"\\y": {
+	  "prefix": "\\y",
+	  "body": "\\upsilon",
+	  "description": "upsilon"
+	},
+	"\\f": {
+	  "prefix": "\\f",
+	  "body": "\\phi",
+	  "description": "phi"
+	},
+	"\\x": {
+	  "prefix": "\\x",
+	  "body": "\\chi",
+	  "description": "chi"
+	},
+	"\\c": {
+	  "prefix": "\\c",
+	  "body": "\\psi",
+	  "description": "psi"
+	},
+	"\\v": {
+	  "prefix": "\\v",
+	  "body": "\\omega",
+	  "description": "omega"
+	},
+	"\\dg": {
+	  "prefix": "\\dg",
+	  "body": "\\digamma",
+	  "description": "digamma"
+	},
+	"\\ve": {
+	  "prefix": "\\ve",
+	  "body": "\\varepsilon",
+	  "description": "varepsilon"
+	},
+	"\\vf": {
+	  "prefix": "\\vf",
+	  "body": "\\varphi",
+	  "description": "varphi"
+	},
+	"\\vp": {
+	  "prefix": "\\vp",
+	  "body": "\\varpi",
+	  "description": "varpi"
+	},
+	"\\vr": {
+	  "prefix": "\\vr",
+	  "body": "\\varrho",
+	  "description": "varrho"
+	},
+	"\\vs": {
+	  "prefix": "\\vs",
+	  "body": "\\varsigma",
+	  "description": "varsigma"
+	},
+	"\\vu": {
+	  "prefix": "\\vu",
+	  "body": "\\vartheta",
+	  "description": "vartheta"
+	},
+	"()": {
+	  "prefix": "()",
+	  "body": "(1)",
+	  "description": "left( right)"
+	},
+	"[]": {
+	  "prefix": "[]",
+	  "body": "[1]",
+	  "description": "left[ right]"
+	},
+	"{}": {
+	  "prefix": "{}",
+	  "body": "{1}",
+	  "description": "left{ right}"
+	},
+	"||": {
+	  "prefix": "||",
+	  "body": "|1|",
+	  "description": "left| right|"
+	},
+	"(]": {
+	  "prefix": "(]",
+	  "body": "(1]",
+	  "description": "left( right]"
+	},
+	"[)": {
+	  "prefix": "[)",
+	  "body": "[1)",
+	  "description": "left[ right)"
+	},
+	"\"_($)?\"": {
+	  "prefix": "\"_($)?\"",
+	  "body": "_{1}",
+	  "description": "_left{ right}"
+	},
+	"\"\\^($)?\"": {
+	  "prefix": "\"\\^($)?\"",
+	  "body": "^{1}",
+	  "description": "^left{ right}"
+	},
+	"$": {
+	  "prefix": "$",
+	  "body": "$1$",
+	  "description": "left$ right$"
+	},
+	"\\l(": {
+	  "prefix": "\\l(",
+	  "body": "\\left( 1 \\right)",
+	  "description": "left\\( right\\)"
+	},
+	"\\{": {
+	  "prefix": "\\{",
+	  "body": "\\\\{1\\\\}",
+	  "description": "left\\{ right\\}"
+	},
+	"\\l[": {
+	  "prefix": "\\l[",
+	  "body": "\\\\[ 1 \\\\]",
+	  "description": "left\\[ right\\]"
+	},
+	"\\l|": {
+	  "prefix": "\\l|",
+	  "body": "\\left| 1 \\right|",
+	  "description": "left\\| right\\|"
+	},
+	"\\l{": {
+	  "prefix": "\\l{",
+	  "body": "\\left\\\\{ 1 \\right\\\\}",
+	  "description": "left\\{ right\\}"
+	},
+	"\\[": {
+	  "prefix": "\\[",
+	  "body": "\\[ 1 \\]",
+	  "description": "left\\[ right\\]"
+	},
+	"norm": {
+	  "prefix": "norm",
+	  "body": "\\norm{$1}",
+	  "description": "Norm"
+	},
+	"lim": {
+	  "prefix": "lim",
+	  "body": "\\lim_{${1:n\\to \\infty}}",
+	  "description": "Limit"
+	},
+	"int": {
+	  "prefix": "int",
+	  "body": "\\int_{${1:0}}^{${2:\\infty}}",
+	  "description": "Integral"
+	},
+	"sum": {
+	  "prefix": "sum",
+	  "body": "\\sum_{${1:n=0}}^{${2:\\infty}}",
+	  "description": "Sum"
+	},
+	"prod": {
+	  "prefix": "prod",
+	  "body": "\\prod_{${1:1}}^{${2:\\infty}}",
+	  "description": "Product"
+	},
+	"frac": {
+	  "prefix": "frac",
+	  "body": "\\frac{${1:${VISUAL:1}}}{${2:n}}",
+	  "description": "Fraction"
+	},
+	"sqrt": {
+	  "prefix": "sqrt",
+	  "body": "\\sqrt{${1}}",
+	  "description": "Sqrt"
+	},
+	"par": {
+	  "prefix": "par",
+	  "body": "\\partial",
+	  "description": "partial"
+	},
+	"url": {
+	  "prefix": "url",
+	  "body": "\\url{$1}",
+	  "description": "Url"
+	},
+	"label": {
+	  "prefix": "label",
+	  "body": "\\label{$1}",
+	  "description": "Label"
+	},
+	"ref": {
+	  "prefix": "ref",
+	  "body": "\\ref{$1}",
+	  "description": "Reference"
+	},
+	"em": {
+	  "prefix": "em",
+	  "body": "\\emph{$1}",
+	  "description": "Emphasis"
+	},
+	"tbf": {
+	  "prefix": "tbf",
+	  "body": "\\textbf{$1}",
+	  "description": "Text boldface"
+	},
+	"mbf": {
+	  "prefix": "mbf",
+	  "body": "\\mathbf{$1}",
+	  "description": "Math boldface"
+	},
+	"tit": {
+	  "prefix": "tit",
+	  "body": "\\textit{$1}",
+	  "description": "Text italics"
+	},
+	"txt": {
+	  "prefix": "txt",
+	  "body": "\\text{$1}",
+	  "description": "Text"
+	},
+	"ol": {
+	  "prefix": "ol",
+	  "body": "\\overline{$1}",
+	  "description": "Overline"
+	},
+	"ul": {
+	  "prefix": "ul",
+	  "body": "\\underline{$1}",
+	  "description": "Underline"
+	},
+	"it": {
+	  "prefix": "it",
+	  "body": "\\item",
+	  "description": "Item"
+	},
+	"\"mat(rix)?\"": {
+	  "prefix": "\"mat(rix)?\"",
+	  "body": "\\begin{${1:p/b/v/V/B/small}matrix}\n\t$2\n\\end{$1matrix}\n",
+	  "description": "Smart Matrix"
+	},
+	"tabular": {
+	  "prefix": "tabular",
+	  "body": "\\begin{${1:t}${1/(t)$|(a)$|(.*)/(?1:abular)(?2:rray)/}}{${2:c}}\n$0${2/(?<=.)(c|l|r)|./(?1: & )/g}\n\\end{$1${1/(t)$|(a)$|(.*)/(?1:abular)(?2:rray)/}}\n",
+	  "description": "Tabular / Array"
+	},
+	"table": {
+	  "prefix": "table",
+	  "body": "\\begin{table}[${1:htpb}]\n\t\\centering\n\t\\caption{${2:caption}}\n\t\\label{tab:${3:label}}\n\t\\begin{${4:t}${4/(t)$|(a)$|(.*)/(?1:abular)(?2:rray)/}}{${5:c}}\n\t$0${5/(?<=.)(c|l|r)|./(?1: & )/g}\n\t\\end{$4${4/(t)$|(a)$|(.*)/(?1:abular)(?2:rray)/}}\n\\end{table}\n",
+	  "description": "Table"
+	},
+	"fig": {
+	  "prefix": "fig",
+	  "body": "\\begin{figure}[${2:htpb}]\n\t\\centering\n\t\\includegraphics[width=${3:0.8}\\linewidth]{${4:name.ext}}\n\t\\caption{${4/(\\w+)\\.\\w+/\\u$1/}$0}\n\t\\label{fig:${4/(\\w+)\\.\\w+/$1/}}\n\\end{figure}\n",
+	  "description": "Figure"
+	},
+	"eq": {
+	  "prefix": "eq",
+	  "body": "\\begin{equation}\n\t$1\n\\end{equation}\n",
+	  "description": "Equation"
+	},
+	"eq*": {
+	  "prefix": "eq*",
+	  "body": "\\begin{equation*}\n\t$1\n\\end{equation*}\n",
+	  "description": "Equation without numbering"
+	},
+	"split": {
+	  "prefix": "split",
+	  "body": "\\begin{split}\n\t$1\n\\end{split}\n\nsnippet align \"Align\" w\n\\begin{align}\n\t$1\n\\end{align}\n",
+	  "description": "Split"
+	},
+	"align*": {
+	  "prefix": "align*",
+	  "body": "\\begin{align*}\n\t$1\n\\end{align*}\n",
+	  "description": "Align without numbering"
+	},
+	"cases": {
+	  "prefix": "cases",
+	  "body": "\\begin{cases}\n\t$1\t\\\\\\\\\n\t$2\n\\end{cases}",
+	  "description": "Cases"
+	},
+	"enum": {
+	  "prefix": "enum",
+	  "body": "\\begin{enumerate}[(i)]\n\t\\item $1\n\t\\item $2\n\\end{enumerate}\n",
+	  "description": "Enumerate"
+	},
+	"item": {
+	  "prefix": "item",
+	  "body": "\\begin{itemize}\n\t\\item $1\n\t\\item $2\n\\end{itemize}\n",
+	  "description": "Itemize"
+	},
+	"desc": {
+	  "prefix": "desc",
+	  "body": "\\begin{description}\n\t\\item[$1]\\hfill \\\\$2\n\t\\item[$3]\\hfill \\\\$4\n\\end{description}\n",
+	  "description": "Description"
+	},
+	"begin": {
+	  "prefix": "begin",
+	  "body": "\\begin{${1:name}}\n\t$2\n\\end{$1}\n",
+	  "description": "begin{} / end{}"
+	},
+	"thm": {
+	  "prefix": "thm",
+	  "body": "\\begin{theorem}\n\t$1\n\\end{theorem}\n",
+	  "description": "Theorem"
+	},
+	"proof": {
+	  "prefix": "proof",
+	  "body": "\\begin{proof}\n\t$1\n\\end{proof}\n",
+	  "description": "Proof"
+	},
+	"sketch": {
+	  "prefix": "sketch",
+	  "body": "\\begin{proof}[Sketch of proof]\n\t$1\n\\end{proof}\n",
+	  "description": "Sketch of proof"
+	},
+	"cor": {
+	  "prefix": "cor",
+	  "body": "\\begin{corollary}\n\t$1\n\\end{corollary}\n",
+	  "description": "Corollary"
+	},
+	"lmm": {
+	  "prefix": "lmm",
+	  "body": "\\begin{lemma}\n\t$1\n\\end{lemma}\n",
+	  "description": "Lemma"
+	},
+	"prop": {
+	  "prefix": "prop",
+	  "body": "\\begin{proposition}\n\t$1\n\\end{proposition}",
+	  "description": "Proposition"
+	},
+	"def": {
+	  "prefix": "def",
+	  "body": "\\begin{definition}\n\t$1\n\\end{definition}\n",
+	  "description": "Definition"
+	},
+	"remark": {
+	  "prefix": "remark",
+	  "body": "\\begin{remark}\n\t$1\n\\end{remark}\n",
+	  "description": "Remark"
+	},
+	"example": {
+	  "prefix": "example",
+	  "body": "\\begin{example}\n\t$1\n\\end{example}\n",
+	  "description": "Example"
+	},
+	"exercise": {
+	  "prefix": "exercise",
+	  "body": "\\begin{exercise}\n\t$1\n\\end{exercise}\n",
+	  "description": "Exercise"
+	},
+	"solution": {
+	  "prefix": "solution",
+	  "body": "\\begin{solution}\n\t$1\n\\end{solution}\n",
+	  "description": "Solution"
+	},
+	"question": {
+	  "prefix": "question",
+	  "body": "\\begin{question}\n\t$1\n\\end{question}\n",
+	  "description": "Question"
+	},
+	"problem": {
+	  "prefix": "problem",
+	  "body": "\\begin{problem}\n\t$1\n\\end{problem}\n",
+	  "description": "Problem"
+	},
+	"update": {
+	  "prefix": "update",
+	  "body": "\\begin{update}\n\t$1\n\\end{update}\n",
+	  "description": "Update"
+	},
+	"abstract": {
+	  "prefix": "abstract",
+	  "body": "\\begin{abstract}\n\t$1\n\\end{abstract}\n",
+	  "description": "Abstract"
+	},
+	"chap": {
+	  "prefix": "chap",
+	  "body": "\\chapter{${1:name}}\n$2",
+	  "description": "Chapter"
+	},
+	"sec": {
+	  "prefix": "sec",
+	  "body": "\\section{${1:name}}\n$2",
+	  "description": "Section"
+	},
+	"sec*": {
+	  "prefix": "sec*",
+	  "body": "\\section*{${1:name}}\n$2",
+	  "description": "Section*"
+	},
+	"ssec": {
+	  "prefix": "ssec",
+	  "body": "\\subsection{${1:name}}\n$2",
+	  "description": "Subsection"
+	},
+	"ssec*": {
+	  "prefix": "ssec*",
+	  "body": "\\subsection*{${1:name}}\n$2",
+	  "description": "Subsection"
+	},
+	"sssec": {
+	  "prefix": "sssec",
+	  "body": "\\subsubsection{${1:name}}\n$2",
+	  "description": "Subsubsection"
+	},
+	"sssec*": {
+	  "prefix": "sssec*",
+	  "body": "\\subsubsection*{${1:name}}\n$2",
+	  "description": "Subsubsection"
+	},
+	"\\now": {
+	  "prefix": "\\now",
+	  "body": "`date +\"%Y-%m-%d %T\"`",
+	  "description": "Today"
+	},
+	"wt": {
+	  "prefix": "wt",
+	  "body": "\\\\widetilde",
+	  "description": "\\widetilde"
+	},
+	"nvs": {
+	  "prefix": "nvs",
+	  "body": "normed vector space",
+	  "description": "normed vector space"
+	},
+	"ips": {
+	  "prefix": "ips",
+	  "body": "inner-product space",
+	  "description": "normed vector space"
+	},
+	"cu": {
+	  "prefix": "cu",
+	  "body": "Cauchy sequence",
+	  "description": "normed vector space"
+	},
+	"st": {
+	  "prefix": "st",
+	  "body": "such that",
+	  "description": "normed vector space"
+	},
+	"iff": {
+	  "prefix": "iff",
+	  "body": "if and only if",
+	  "description": "normed vector space"
+	},
+	"bs": {
+	  "prefix": "bs",
+	  "body": "Banach space",
+	  "description": "normed vector space"
+	},
+	"lo": {
+	  "prefix": "lo",
+	  "body": "linear operator",
+	  "description": "normed vector space"
+	},
+	"inj": {
+	  "prefix": "inj",
+	  "body": "injective",
+	  "description": "normed vector space"
+	},
+	"con": {
+	  "prefix": "con",
+	  "body": "continuous",
+	  "description": "normed vector space"
+	},
+	"cs": {
+	  "prefix": "cs",
+	  "body": "convergent sequence",
+	  "description": "normed vector space"
+	},
+	"span": {
+	  "prefix": "span",
+	  "body": "\\Span($1)_{${2:n=1}}^{${3:\\infty}}",
+	  "description": "normed vector space"
+	},
+	"qt": {
+	  "prefix": "qt",
+	  "body": "\\quad \\text{$1}",
+	  "description": "normed vector space"
+	},
+	"eqnn": {
+	  "prefix": "eqnn",
+	  "body": "\\begin{equation*}\n\t$0\n\\end{equation*}",
+	  "description": "Equation without a number"
+	},
+	"al": {
+	  "prefix": "al",
+	  "body": "\\begin{align}\n\t$0\n\\end{align}",
+	  "description": "Align"
+	},
+	"alnn": {
+	  "prefix": "alnn",
+	  "body": "\\begin{align*}\n\t$0\n\\end{align*}",
+	  "description": "Align without a number"
+	},
+	"eqa": {
+	  "prefix": "eqa",
+	  "body": "\\begin{eqnarray}\n\t1 & ${2:${VISUAL}} & ${0:${VISUAL}}\n\\end{eqnarray}",
+	  "description": "Equation array"
+	},
+	"eqann": {
+	  "prefix": "eqann",
+	  "body": "\\begin{eqnarray*}\n\t1 & ${2:${VISUAL}} & ${0:${VISUAL}}\n\\end{eqnarray*}",
+	  "description": "Equation array without a number"
+	},
+	"dv": {
+	  "prefix": "dv",
+	  "body": "\\dv[1]{${2}}{${3}}",
+	  "description": "Derivative"
+	},
+	"pdv": {
+	  "prefix": "pdv",
+	  "body": "\\pdv[1]{${2}}{${3}}",
+	  "description": "Partial Derivative"
+	},
+	"SI": {
+	  "prefix": "SI",
+	  "body": "\\SI{1}{${2}}",
+	  "description": "SI-Unit"
+	},
+  
+	"frac with $": {
+		"prefix": "ffrac",
+		"body": "$\\frac{${1}}{${0}} $",
+		"description": "Partial Derivative"
+	},
+
+
+	
+
+	 "Poisson": { 
+	 "prefix": "Pois", 
+	 "body": "\\frac{${1:\\lambda}^{${2:i}}}{$2!}e^{-$1}" ,
+	 "description": "Poisson"
+	},	
+	 "Poisson with $": { 
+	 "prefix": "Ppois", 
+	 "body": "\\$\\frac{${1:\\lambda}^{${2:i}}}{$2!}e^{-$1}\\$" ,
+	 "description": "Poisson with math box", 
+	},	
+
+	 "Geometric": { 
+	 "prefix": "Geo",
+	 "body": "(1-$1)^{$2-1}$1", 
+	 "description": "Geometric", 
+	}, 
+	 "Geometric with $": { 
+	 "prefix": "Ggeo",
+	 "body": "\\$(1-${1:p})^{${2:i}-1}$1\\$", 
+	 "description": "Geometric in math box", 
+	}
+}
+
